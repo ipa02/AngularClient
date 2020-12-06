@@ -27,7 +27,7 @@ export class WelcomeComponent implements OnInit {
 
   urlOfEditingProduct: '';
 
-  proxyUrl = 'http://localhost:8080';
+  proxyUrl = 'https://proxyservice.azurewebsites.net';
 
   constructor(private http: HttpClient) {
   }
